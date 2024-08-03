@@ -97,7 +97,7 @@ subprocess.run(['python', 'Your-Interface-Tkinter.py'])
 _____________________________________
 ## For your interface tkinter
 
-### Deleted CMD 
+### Make invisible the CMD 
 
 ```python
 import ctypes

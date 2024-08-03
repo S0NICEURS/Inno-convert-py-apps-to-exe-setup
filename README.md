@@ -50,6 +50,7 @@ subprocess.check_call(['pip', 'install', '--upgrade', 'setuptools'])
 # Run the desired Python script
 subprocess.run(['python', 'Your-Interface-Tkinter.py']) 
 ```
+
 ### Deleted CMD for your interface tkinter
 
 ```python

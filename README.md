@@ -100,7 +100,7 @@ _____________________________________
 ### Make invisible the CMD 
 
 ```python
-import ctypes
+import ctypes # pip module to install or for main.py
 # --- import
 # --- import
 

@@ -100,10 +100,12 @@ _____________________________________
 ### Make invisible the CMD 
 
 ```python
+# pip module to install or for main.py
 import ctypes # pip module to install or for main.py
 # --- import
 # --- import
 
+# in code
 if __name__ == "__main__":
     ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
 

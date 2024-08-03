@@ -101,17 +101,18 @@ _____________________________________
 
 ```python
 import ctypes
----import ---
----import ---
----import ---
+# --- import
+# --- import
+# --- import
 
 if __name__ == "__main__":
     ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
----.......
----.......
----.......
----.......
---- YOUR CODE
+
+# --- YOUR CODE
+# --- YOUR CODE
+# --- YOUR CODE
+# --- YOUR CODE
+# --- YOUR CODE
 ```
 
 

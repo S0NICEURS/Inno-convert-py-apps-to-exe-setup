@@ -8,7 +8,9 @@ _____________________________________
 - Installer background = 750x1024
 
 _____________________________________
-## recommended code for your main.py
+## Recommended code for your main.py
+_____________________________________
+
 
 ### Deleted CMD for your interface tkinter
 ```python

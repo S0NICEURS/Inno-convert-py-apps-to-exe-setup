@@ -7,11 +7,8 @@ Just 1 or 2 false postitive, which can go up to 5 if you do not follow the steps
 - Installer background = 750x1024
 
 _____________________________________
-## Recommended code for your main.py
+### Recommended code for your main.py
 
-
-
-### Deleted CMD for your interface tkinter
 ```python
 import subprocess
 import importlib
@@ -53,7 +50,13 @@ subprocess.check_call(['pip', 'install', '--upgrade', 'setuptools'])
 # Run the desired Python script
 subprocess.run(['python', 'Your-Interface-Tkinter.py']) 
 ```
+### Deleted CMD for your interface tkinter
 
+```python
+import ctypes
 
+if __name__ == "__main__":
+    ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
+```
 
 
